@@ -2,19 +2,20 @@ import React from "react";
 import styled from "styled-components";
 
 import Nav from "./Nav";
-import StyledContainer from "../common/Container";
+import Container from "../common/Container";
 
 const StyledHeader = styled.header`
-  padding-top: 2em;
+  padding: 1rem;
+  background-color: #f1f0f7;
 `;
 
 const Header = () => {
   return (
-    <StyledContainer>
+    <Container width="70%">
       <StyledHeader>
         <Nav />
       </StyledHeader>
-    </StyledContainer>
+    </Container>
   );
 };
 
