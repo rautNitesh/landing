@@ -13,6 +13,7 @@ const StyledText = styled.text`
   margin-bottom: ${(props) => (props.marginBottom ? props.marginBottom : null)};
   font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
   text-align: ${(props) => (props.textAlign ? props.textAlign : "center")};
+  line-height: ${(props) => (props.lineHeight ? props.lineHeight : null)};
 
   @media (max-width: 720px) {
     margin-top: ${(props) =>

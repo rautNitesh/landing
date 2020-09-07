@@ -17,8 +17,8 @@ const Line = styled.div`
 
 const Nav = () => {
   return (
-    <FlexBox justify="space-between">
-      <FlexBox justify="space-between">
+    <FlexBox width="100%" justify="space-between">
+      <FlexBox margin="0">
         <Container>
           <Image mobileWidth="50%" source={Logo} alt="Logo" />
         </Container>

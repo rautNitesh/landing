@@ -23,14 +23,13 @@ const StyledHero = styled.section`
 
 const Hero = (props) => {
   return (
-    <StyledHero backgroundColor="#f1f0f7" height="420px" heightMobile="250px">
+    <StyledHero backgroundColor="#f1f0f7" height="500px" heightMobile="250px">
       <Container
         mobileWidth="80%"
         width="70%"
         paddingMobileTop="2rem"
         paddingMobileBottom="0rem"
-        paddingTop="8rem"
-        // paddingBottom="-5rem"
+        paddingBottom="2rem"
       >
         <FlexBox width="100%">
           <FlexBox mobileWidth="60%" width="50%" direction="column">
@@ -63,12 +62,12 @@ const Hero = (props) => {
           </FlexBox>
           <Container
             mobileWidth="80%"
-            width="60%"
+            width="70%"
             style={{ marginLeft: "-10rem" }}
           >
             <Image
-              marginTop="-4rem"
-              marginLeft="5rem"
+              marginTop="5rem"
+              marginLeft="-10rem"
               marginMobileTop="2rem"
               marginMobileLeft="7rem"
               width="150px"
@@ -77,11 +76,11 @@ const Hero = (props) => {
               alt="salad round photo"
             />
             <Image
-              marginTop="-5rem"
-              marginLeft="22rem"
+              marginTop="-9.5rem"
+              marginLeft="18rem"
               marginMobileTop="0rem"
               marginMobileLeft="10rem"
-              width="60%"
+              width="70%"
               mobileWidth="60%"
               source={largePlate}
               alt="salad round photo"

@@ -21,7 +21,7 @@ const How = (props) => {
         width="70%"
         mobileWidth="100%"
         paddingTop="5rem"
-        paddingBottom="3rem"
+        paddingBottom="5rem"
       >
         <Text fontSize="25px" color="#373f53" fontWeight="700">
           How it works

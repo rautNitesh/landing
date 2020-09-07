@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const StyledContainer = styled.section`
   width: ${(props) => (props.width ? props.width : "auto")};
-  margin: auto;
+  margin: ${(props) => (props.margin ? props.margin : "auto")};
   padding-top: ${(props) => (props.paddingTop ? props.paddingTop : null)};
   padding-bottom: ${(props) =>
     props.paddingBottom ? props.paddingBottom : null};
@@ -13,6 +13,7 @@ const StyledContainer = styled.section`
     props.paddingRight ? props.paddingTRight : null};
   background-color: ${(props) =>
     props.backgroundColor ? props.backgroundColor : null};
+  text-align: ${(props) => (props.textAlign ? props.textAlign : "center")};
   @media screen and (max-width: 720px) {
     padding-top: ${(props) =>
       props.paddingMobileTop ? props.paddingMobileTop : null};
