@@ -20,7 +20,7 @@ const Nav = () => {
     <FlexBox width="100%" justify="space-between">
       <FlexBox margin="0">
         <Container>
-          <Image mobileWidth="50%" source={Logo} alt="Logo" />
+          <Image cursor="pointer" mobileWidth="50%" source={Logo} alt="Logo" />
         </Container>
         <Line />
         <FlexBox direction="column">

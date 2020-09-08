@@ -27,7 +27,7 @@ const Hero = (props) => {
       <Container
         mobileWidth="80%"
         width="70%"
-        paddingMobileTop="2rem"
+        paddingMobileTop="1rem"
         paddingMobileBottom="0rem"
         paddingBottom="2rem"
       >
@@ -56,8 +56,10 @@ const Hero = (props) => {
               All our wholesale users can order meals in bulk using the very
               re-innovated system
             </Text>
-            <FlexBox width="50%">
-              <Button color="primary">Find Out More</Button>
+            <FlexBox mobileWidth="80%" width="100%">
+              <Button color="primary" fontS>
+                Find Out More
+              </Button>
             </FlexBox>
           </FlexBox>
           <Container

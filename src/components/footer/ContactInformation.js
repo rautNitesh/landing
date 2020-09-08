@@ -42,7 +42,13 @@ const ContactInformation = () => {
       >
         Phone:
       </Text>
-      <Text fontSize="15px" textAlign="left" fontWeight="300" color="#f69447">
+      <Text
+        fontSize="15px"
+        textAlign="left"
+        cursor="pointer"
+        fontWeight="300"
+        color="#f69447"
+      >
         <u>1300 MACROS (1300 622 767)</u>
       </Text>
       <Text
@@ -54,7 +60,13 @@ const ContactInformation = () => {
       >
         Email:
       </Text>
-      <Text fontSize="15px" textAlign="left" fontWeight="300" color="#f69447">
+      <Text
+        fontSize="15px"
+        textAlign="left"
+        cursor="pointer"
+        fontWeight="300"
+        color="#f69447"
+      >
         <u>admin@food4fitness@com.au</u>
       </Text>
       <Text
@@ -72,8 +84,13 @@ const ContactInformation = () => {
         mobileWidth="100%"
         width="100%"
       >
-        <Image source={facebook} />
-        <Image marginLeft="1rem" marginMobileLeft="1rem" source={Instagram} />
+        <Image cursor="pointer" source={facebook} />
+        <Image
+          marginLeft="1rem"
+          cursor="pointer"
+          marginMobileLeft="1rem"
+          source={Instagram}
+        />
       </Container>
     </FlexBox>
   );

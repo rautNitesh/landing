@@ -9,6 +9,7 @@ const StyledFlexBox = styled.section`
   /* text-align: center; */
   width: ${(props) => (props.width ? props.width : "auto")};
   margin: ${(props) => (props.margin ? props.margin : "auto")};
+  padding: ${(props) => (props.padding ? props.padding : "auto")};
   @media screen and (max-width: 720px) {
     width: ${(props) => (props.mobileWidth ? props.mobileWidth : "auto")};
   }

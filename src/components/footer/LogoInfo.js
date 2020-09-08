@@ -8,7 +8,12 @@ import Logo from "../../assets/images/icons/logo.png";
 const LogoInfo = () => {
   return (
     <FlexBox margin="0 0 1rem 0" width="250px" direction="column">
-      <Image source={Logo} width="80px" />
+      <Image
+        cursor="pointer"
+        marginMobileLeft="0rem"
+        source={Logo}
+        width="80px"
+      />
       <Text
         color="#9e99ba"
         fontSize="12px"

@@ -11,11 +11,13 @@ const StyledText = styled.text`
     props.textTransform ? props.textTransform : null};
   margin-top: ${(props) => (props.marginTop ? props.marginTop : null)};
   margin-bottom: ${(props) => (props.marginBottom ? props.marginBottom : null)};
+  margin-left: ${(props) => (props.marginLeft ? props.marginLeft : null)};
+  margin-right: ${(props) => (props.marginRight ? props.marginRight : null)};
   font-size: ${(props) => (props.fontSize ? props.fontSize : "20px")};
   text-align: ${(props) => (props.textAlign ? props.textAlign : "center")};
   line-height: ${(props) => (props.lineHeight ? props.lineHeight : null)};
-
-  @media (max-width: 720px) {
+  cursor: ${(props) => (props.cursor ? props.cursor : null)};
+  @media screen and (max-width: 720px) {
     margin-top: ${(props) =>
       props.marginMobileTop ? props.marginMobileTop : null};
     margin-bottom: ${(props) =>

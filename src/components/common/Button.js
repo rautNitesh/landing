@@ -10,10 +10,12 @@ const StyledButton = styled.button`
   border-radius: 5px;
   font: 15px "Montserrat", san-serif;
   font-weight: 500;
+  cursor: pointer;
+
   color: ${(props) => (props.color === "primary" ? "white" : "black")};
   @media (max-width: 720px) {
     padding: 0.5rem 1rem;
-    font-size: 15px;
+    font-size: 10px;
   }
 `;
 

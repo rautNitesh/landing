@@ -8,6 +8,8 @@ const StyledImage = styled.img`
   margin-left: ${(props) => (props.marginLeft ? props.marginLeft : null)};
   margin-right: ${(props) => (props.marginRight ? props.marginRight : null)};
   width: ${(props) => (props.width ? props.width : "auto")};
+  cursor: ${(props) => (props.cursor ? props.cursor : null)};
+
   @media screen and (max-width: 720px) {
     width: ${(props) => (props.mobileWidth ? props.mobileWidth : "auto")};
     margin-top: ${(props) =>

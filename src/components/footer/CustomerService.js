@@ -7,19 +7,14 @@ import FlexBox from "../common/FlexBox";
 const Line = styled.div`
   margin: 1rem 0;
   border-bottom: 1px solid #373f53;
-  opacity: 0.5;
+  opacity: 0.3;
   padding-bottom: 0.5rem;
-  width: 100%;
+  width: 70%;
 `;
 
 const CustomerService = () => {
   return (
-    <FlexBox
-      margin="0 0 1rem 0"
-      width="250px"
-      justify="space-between"
-      direction="column"
-    >
+    <FlexBox margin="0 0 1rem 0" width="250px" direction="column">
       <Text
         textTransform="uppercase"
         fontSize="18px"
